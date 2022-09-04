@@ -1,0 +1,28 @@
+# code
+等差数列求和  
+#include <stdio.h>
+int main()
+{
+  int n=0;
+  int SN;
+  scanf("%d",&n);
+  SN=n+n*(n-1)/2;
+  printf("%d\n",SN);
+ 
+return 0;
+}
+
+
+或for循环使sum加上i后赋值
+
+#include <stdio.h>
+int main()
+{
+  int n,sum=0;
+  scanf("%d",&n);
+  for(int i=1;i<=n;i++){
+  sum+=i;
+  }
+  printf("%d\n",sum);
+  return 0;
+}
