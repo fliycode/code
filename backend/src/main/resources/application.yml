@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+jwt:
+  secret: "ChangeThisSecretKeyToYourOwnAtLeast32BytesLong!!"
+  expiration: 86400000 # 1 day in ms
+
+spring:
+  jackson:
+    serialization:
+      indent_output: true
